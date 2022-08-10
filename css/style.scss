@@ -32,7 +32,7 @@ main{
                 left: 0;
                 transform: translateY(-50%);
                 height: 4px;
-                width: 100%;
+                width: 99%;
                 z-index: -1;
             }
             .circle{
@@ -80,6 +80,7 @@ main{
             &:disabled{
                 background-color: #e0e0e0;
                 cursor: not-allowed;
+                transform: scale(0.98);
             }
         }
     }

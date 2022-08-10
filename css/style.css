@@ -37,7 +37,7 @@ main .container .progress-container::before {
   left: 0;
   transform: translateY(-50%);
   height: 4px;
-  width: 100%;
+  width: 99%;
   z-index: -1;
 }
 main .container .progress-container .circle {
@@ -85,4 +85,5 @@ main .container .btn:focus {
 main .container .btn:disabled {
   background-color: #e0e0e0;
   cursor: not-allowed;
+  transform: scale(0.98);
 }/*# sourceMappingURL=style.css.map */
